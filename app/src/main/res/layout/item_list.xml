@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/books_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <io.palaima.android.google.books.ui.view.BetterViewAnimator
+        android:id="@+id/books_content_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/books_list"
+            android:name="io.palaima.android.google.books.ItemListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager"
+            tools:listitem="@layout/item_list_content"/>
+
+        <include layout="@layout/books_list_empty_state_content"/>
+
+    </io.palaima.android.google.books.ui.view.BetterViewAnimator>
+
+</android.support.v4.widget.SwipeRefreshLayout>
+

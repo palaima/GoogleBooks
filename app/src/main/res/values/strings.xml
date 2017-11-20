@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GoogleBooks</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="books_search_hint">Search for a book</string>
+    <string-array name="query_suggestions">
+        <item>Science fiction</item>
+        <item>Science</item>
+        <item>Fiction</item>
+        <item>Drama</item>
+        <item>Romance</item>
+        <item>Mystery</item>
+        <item>Horror</item>
+        <item>Health</item>
+        <item>Guide</item>
+        <item>Travel</item>
+        <item>History</item>
+        <item>Math</item>
+        <item>Poetry</item>
+        <item>Encyclopedias</item>
+        <item>Dictionaries</item>
+        <item>Comics</item>
+        <item>Art</item>
+        <item>Cookbooks</item>
+        <item>Diaries</item>
+        <item>Fantasy</item>
+    </string-array>
+</resources>
